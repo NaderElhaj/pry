@@ -9,17 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
     "react": "latest",
+    "react-autosuggest": "^10.1.0",
     "react-dom": "latest",
-    "next": "latest"
+    "react-query": "^3.39.3"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-autosuggest": "^10.1.7",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
